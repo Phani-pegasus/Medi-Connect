@@ -1,0 +1,83 @@
+/* Main.css */
+
+/* Apply the background image */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("C:/Users/phani/Downloads/medi.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif; /* Change the font-family as needed */
+  color: #fff; /* Default text color */
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+select {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.record-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+}
+
+.record-image {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 5px 0 0 5px;
+}
+
+.record-details {
+  padding: 10px;
+  color:black;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  .main-container {
+    text-align: center;
+  }
+
+  select {
+    max-width: 100%;
+  }
+
+  .record-container {
+    flex-direction: column;
+  }
+
+  .record-image {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .record-details {
+    padding: 10px;
+    color:black;
+  
+  }
+}

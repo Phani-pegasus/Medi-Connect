@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": [
+    {
+      "id": "1",
+      "name": "Kameswar",
+      "Username": "Kami",
+      "password": "Kami@1234",
+      "confirmpassword": "Kami@1234",
+      "numbers": "8569421825",
+      "keys": "Rajamouli"
+    },
+    {
+      "name": "kami",
+      "Username": "kama",
+      "password": "Kamesh@1234",
+      "confirmpassword": "Kamesh@1234",
+      "numbers": "9876543210",
+      "keys": "kami",
+      "id": "_Y3F38a"
+    }
+  ]
+}
